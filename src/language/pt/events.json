@@ -1,0 +1,32 @@
+{
+    "message": {
+        "mention": "Olá {{author}}, sou o Axel, caso precise de ajuda, siga as instruções abaixo: \n\n Comando de ajuda: {{prefix}}ajuda \n\n Servidor de suporte: [Clique aqui](https://discord.gg/GqVPyUy)",
+        "blacklisted": "{{author}}, você está em minha blacklist e não pode utilizar nenhum comando! Entre em contato com os desenvolvedores caso queria acesso novamente!",
+        "secondsCooldown": " **▫️** Para você executar o comando `{{command}}`, você precisa esperar {{seconds}} segundos !",
+        "secondsMs": " **▫️** Para você executar o comando `{{command}}`, você precisa esperar alguns milissegundos !",
+        "error": " Houve um erro inesperado em meu sistema\n\n```\/[NodeERR*_ Axel[i*+]{{error}}+Author[{{authorID}}]-]```",
+        "noUserPermSingular": "**▫️** Para você executar esse comando, você precisa da permissão `{{perm}}`",
+        "noUserPermPlural": "**▫️** Para você executar esse comando, você precisa das  permissões: `{{perm}}`",
+        "noBotPermSingular": "**▫️** Para você executar esse comando, eu preciso da permissão: `{{perm}}`",
+        "noBotPermPlural": "**▫️** Para você executar esse comando, eu preciso das seguintes permissões: `{{perm}}`"
+    },
+    "messageDelete": {
+        "author": "Mensagem deletada!",
+        "description": "{{member}} deletou uma mensagem!",
+        "channelField": "<:channel:743904354465087539> Canal em que a mensagem foi excluída:",
+        "contentField": "<:syntax:775055818068197386> Conteúdo da mensagem:",
+        "dateField": "<:cooldown:775054742401319003> Data que foi excluída:",
+        "date": "{{DATE}}",
+        "noContent": "Nenhuma."
+    },
+    "services": {
+        "afk": {
+            "heAfk": "<:aviso:734427202191491154> **▫️** Este usuário está ausente (AFK) - {{reason}}",
+            "back": "<a:waveanimado:788854018611871785> **▫️** Bem vindo de volta, seu modo AFK foi desabilitado !"
+        }
+    },
+    "Lavalink": {
+        "start": "📀 **▫️** Tocando: [{{title}}]({{url}}) - <@{{requester}}>",
+        "end": "📀 **▫️** Fim da música **{{title}}**!"
+    }
+}

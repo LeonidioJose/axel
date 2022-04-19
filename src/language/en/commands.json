@@ -1,0 +1,271 @@
+{
+    "ping": {
+        "calculando": "Calculating...",
+        "clientPing": "🏓 **▫️** The current delay of my CPU is **{{ping}}**ms",
+        "discordPing": "🪛 **▫️** The current delay of the discord API is **{{ping}}**ms"
+    },
+    "botinfo": {
+        "loading": "<a:ping:751490412451201145> Loading informations...",
+        "devsFieldName": "<:devs:743904472211914858> Developers",
+        "specialThanksFieldName": "<:partner:753048111718465636> Special Thanks",
+        "specialThanksFieldValue": "<@770386721283113060> • Are paying for Axel hosting \n \n ♥ ️ And you **{{user}}** for using Axel",
+        "statisticsFieldName": "Statistics:",
+        "statisticsFieldValue": {
+            "guilds": "<:serv:743903785449029775> Guilds: {{guildsSize}}",
+            "users": "\n <:users:743904019352649888> Users: {{usersSize}}",
+            "channels": "\n <:channel:743904354465087539> Channels: {{channelsSize}}"
+        },
+        "informationFieldName": "Informations:",
+        "informationFieldValue": {
+           "language": "<:js:743902460824780800> Language: JavaScript",
+           "runtime": "\n <:node:743891213001818275> Runtime: Node.js",
+           "database": "\n <:db:743903294098768015> Database: Firebase",
+           "host": "\n <:host:743903455734923265> Host: Discloud"
+        },
+        "cpuModelFieldName": "<:monitor:743906787178184735> Model:",
+        "cpuUseFieldName": "<:uso:743906379017879632> Use:",
+        "cpuMemoryFieldName": "<:bat:743906606139441153> Memory use:",
+        "footer": "Axel™ | Page 0"
+    },
+    "uptime": {
+        "weeks": "{{weeks}} weeks,",
+        "message": "I'm awake for {{ontime}}"
+    },
+    "lang": {
+        "noLang": "<:Incorrect:802521817108971540> **▫️** You have not specified the language you want to change! \n\nAvailable languages:\n`pt` - Português\n`en` - English",
+        "args": "<:Incorrect:802521817108971540> **▫️** The available languages ​​are only: `pt` e `en`!",
+        "hasDefault": "<:Incorrect:802521817108971540> **▫️** The language `{{idioma}}` is already set as default!"
+    },
+    "DevOnly": "Only developers can execute this command !",
+    "store": {
+        "havePremium": "<:Incorrect:802521817108971540>  **▫️** You already own the premium, wait for the premium to end and buy again!",
+        "loading": "<a:ping:751490412451201145> Loading items...",
+        "editableErr": "The loading message could not be edited!",
+        "welcomeToStore": "Welcome to the store, {{user}}! Here is where you can spend your coins",
+        "itens": {
+            "premium": {
+                "title": "<:sorteio:768812768560021585> Premium",
+                "value": "Buy a week of premium access for 10,000 coins!",
+                "noCoins": "You don't have enough money to buy this item!",
+                "success": "Purchase completed successfully! Your weeklong premium access has been activated"
+            }
+        },
+        "footer": "More items coming soon!"
+    },
+    "ban-list": {
+        "noPerm": "You do not have the necessary permission to use this command! \n Requires `{{perm}}` permission",
+        "noMembers": "No banned members were found on this server!",
+        "howMuch": "{{qtd}} banned members found!"
+    },
+    "setprefix": {
+        "maxChars": "The new prefix cannot contain more than 3 characters!",
+        "moreArgs": "Please do not put any other arguments after the prefix!",
+        "noPrefix": "You have not entered any new prefixes!",
+        "defaultPrefix": "The prefix has been reset to the usage pattern, `a!`",
+        "success": "Prefix changed successfully! \n New prefix: `{{prefix}}`",
+        "error": "An error occurred while trying to change the prefix! \n Error: {{error}}"
+    },
+    "saldo": {
+        "account": "Bank account",
+        "error": "An error occurred... please try again later"
+    },
+    "serverinfo": {
+        "voice": "Voice channels: \n            {{voice}}",
+        "text": "Text channels: \n              {{text}}",
+        "region": "Guild region: \n        {{country}}",            
+        "roles": "Roles: \n      {{roles}}",
+        "verifLevel": "Verification level: \n           {{level}}",
+        "emojis": "Emojis: \n       {{emojisQtd}}",
+        "boostQtd": "Number of boosts: \n              {{boosts}}",
+        "boostLvl": "Boost level: \n       {{boostLvl}}",
+        "noBoost": "None!",
+        "membersQtd": "Number of members: \n                {{members}}",
+        "botsQtd": "Number of bots: \n             {{bots}}",
+        "joinedAt": "I joined here at: \n {{joined}}",
+        "createdAt": "Created at: \n {{created}}",
+        "owner": "Owner: \n {{owner}}",
+        "error": "An error occurred... please try again later"
+    },
+    "ship": {
+        "noMember": "Please mention two valid members!",
+        "sameMembers": "You cannot ship two identical people!",
+        "description": "First user: **{{firstUser}}** \n Second user: **{{secondUser}}** \n\n Shipname: **{{ship}}** \n {{emoji}} Percent: **{{porcentagem}}%**"
+    },
+    "bio": {
+        "noBio": "<:Incorrect:802521817108971540> **▫️** Enter a description you want to add!",
+        "length": "<:Incorrect:802521817108971540> **▫️**You have exceeded the ** 180 ** character limit",
+        "success": "<:Check:802521209899319296> **▫️** Now your biography is **{{bio}}**!",
+        "noBio2": "No biography defined!!"
+    },
+    "laranjo": {
+        "noText": "No text was provided",
+        "error": "An error occurred... please try again later",
+        "moreChars": "Text cannot contain more than `{{charsNumber}}` characters"
+    },
+    "covid19": {
+        "cases": "Cases:",
+        "deaths": "Deaths:",
+        "recovered": "Recovered:",
+        "phrase": "About COVID-19 in {{local}}",
+        "world": "WORLD",
+        "error": "An error occurred... please try again later"
+    },
+    "afk": {
+        "sucess": "<:Check:802521209899319296> **▫️** You are now in **AFK** mode! Any message you send, **AFK** mode will be disabled.",
+        "err": "<:Incorrect:802521817108971540> An error occurred while setting your nickname, but you are still in **AFK** mode!\n\n```yaml\n{{erro}}```"
+    },
+    "gift": {
+        "giftTitle": "Premium Gift"
+    },
+    "help": {
+        "mainEmbed": {
+            "title": "• Help Central",
+            "description": "<a:waveanimado:788854018611871785> Hello {{user}} I am Axel™ ! Welcome to my help panel , here is some information:\n\n<:status:739887860647198812> I currently have `{{commandsSize}}` commands in my system!"
+        },
+        "commandEmbed": {
+            "title": "[AXEL] Help Central",
+            "description": {
+                "name": "<:iddddddddd:753050721485848637> • Default Name: `{{name}}`",
+                "aliases": "<:alt:775062341200642048> • Aliases: `{{aliases}}`",
+                "desc": "<:desc:775058103912759326> • Description \n```yaml\n{{desc}}```",
+                "syntax": "<:syntax:775055818068197386> • Syntax\n```yaml\n{{syntax}}```",
+                "usage": "✍️ • Example (s)\n```fix\n{{usage}}```",
+                "category": "<:category:775055962695270442> • Category: `{{category}}`",
+                "cooldown": "<:cooldown:775054742401319003> • Cooldown: `{{time}}`",
+                "footer": "Parameters:\n [] - Optional\n : - Or\n <> - required"
+            }
+        },
+        "aliases": {
+            "no": "No one"
+        },
+        "noCommandFound": "<:suport:738072533282062386> **▫️** I didn't find the command `{{command}}` in my system, did you mean `{{commandThink}}`?"
+    },
+    "npm": {
+        "noSearch": "No packages informed to search!",
+        "noExist": "The package `{{package}}` does not exist!",
+        "description": "Description:",
+        "noDescription": "No description available!",
+        "keywords": "Keywords: ",
+        "noKeywords": "No keywords",
+        "version": "Version: ",
+        "author": "Author: ",
+        "noUsername": "Unavailable",
+        "publisher": "Publisher: ",
+        "npmPage": "NPM Page",
+        "githubPage": "Github Page"
+    },
+    "create": {
+        "nothing": "Nothing informed to create! \n Available to create: categories, channels and roles",
+        "noChannelType": "No type for the channel was provided!",
+        "noChannelName": "No channel name was provided!",
+        "noCategoryName": "No category name was provided!",
+        "invalidColor": "The color `{{colorInput}}` is invalid",
+        "noColor": "No color for the role was provided!",
+        "noName": "No role name was provided!",
+        "notHex": "The color needs to start with `#`",
+        "voiceSuccess": "The voice channel `{{channel}}` has been created!",
+        "textSuccess": "The text channel `{{channel}}` has been created!",
+        "categorySuccess": "The category `{{categ}}` has been created!",
+        "roleSuccess": "The role `{{role}}` with the color `{{col}}` has been created!"
+    },
+    "global": {
+        "beta": "Esse módulo está apenas habilitado para os desenvolvedores, pois ele ainda está sendo testado, portanto, está na fase **BETA**!",
+        "helpDescription": "❔ `{{command}}`\n\n{{description}}\n\n❓ How to use? `{{syntax}}`",
+        "noPerm": "No one",
+        "fields": {
+            "examplesName": "📨 Examples",
+            "permissionsName": "❕ Permissions"
+        }
+    },
+    "account": {
+        "description": "BIOGRAPHY:",
+        "noBio2": "No biography defined!",
+        "execs": "Number of commands executed:"
+    },
+        "play": {
+        "noVoice": "<:Incorrect:802521817108971540> **▫️**You need to be on a voice channel to be able to play music!",
+        "inChannel": "<:Incorrect:802521817108971540> **▫️** I'm already on a voice channel! \n Join the {{channel}} channel to play the songs!",
+        "noMusic": "<:Incorrect:802521817108971540> **▫️** You need to tell us which song or playlist you want me to play!",
+        "noMatch": "<:Incorrect:802521817108971540> **▫️** I didn't find any results for {{track}}",
+        "musicsAdded": "<:Check:802521209899319296> **▫️** ** {{size}} ** songs have been added to the queue!",
+        "musicAdded": "<:Check:802521209899319296> **▫️** Music added to the queue: [{{title}}]({{url}})"
+    },
+    "weather": {
+        "noAlert": "No storm alert!",
+        "windspeed": "Windspeed:",
+        "humidity": "Humidity:",
+        "temperature": "Temperature:",
+        "alert": "Alert:"
+    },
+    "queue": {
+        "noMusic": "<:Incorrect:802521817108971540> **▫️** I'm playing no music for the server!",
+        "noQueue": "<:Incorrect:802521817108971540> **▫️** There is no music playing in the queue!"
+    },
+    "logs": {
+        "noChannel": "<:Incorrect:802521817108971540> **▫️**You need to mention a channel after the argument **set**!",
+        "typeChannel": "<:Incorrect:802521817108971540> **▫️** You can only place text channels as logs!",
+        "channelSet": "<:Check:802521209899319296> **▫️** The logs have been set for channel ** {{channelName}} ** successfully! \n \nBut you need to enable which events will appear in the logs. \n Use the command: `{{prefix}}logs events` to have more examples! \n\nYou don't know how to configure? I can set it up for you! React to this emoji: 🔑\n I will put the recommended configuration.",
+        "eventsField": "<:syntax:775055818068197386> ▫️ Here is the list of all events that can be used in the logs! \n\n {{map}} \n\nAre you in doubt? Here is an example: ```md\n# {{prefix}}logs enable {{randomEvent}}\n# {{prefix}}logs disable {{randomEvent}}```",
+        "needAct": "<:Incorrect:802521817108971540> **▫️** For you to configure something about the events you need to activate the logs first",
+        "invalidEvent": "<:Incorrect:802521817108971540> **▫️** `{{event}}` It is not a valid event !\n\n<:warning:799748359257849876> Available events:\n\n{{events}}",
+        "haveEvent": "<:Incorrect:802521817108971540> **▫️** The event `{{event}}` already enabled !",
+        "eventActEnable": "<:Check:802521209899319296> **▫️**The event `{{event}}` has been successfully enabled!",
+        "needEvent": "<:Incorrect:802521817108971540> **▫️*** You must tell an event!",
+        "nEv": "<:Incorrect:802521817108971540> **▫️** The event `{{event}}` is not enabled! \n So there is no way to disable",
+        "noPerm": "<:Incorrect:802521817108971540> **▫️** I do not have permission to send messages on the channel  `{{channel}}`",
+        "eventActDisable": "<:Check:802521209899319296> **▫️** The event `{{event}}` has been successfully disabled!",
+        "setDefault": "<:Check:802521209899319296> **▫️**Ready ! Now I have put the recommended events for your logs. \n\nUse: `{{prefix}} logs events config` to find out which events are disabled and enabled!",
+        "configMobile": "<:syntax:775055818068197386> ▫️ Here are all the events that are configured or not.\n\n `+` = Able\n`-` = Disabled\n```diff\n{{e}}\n{{d}}```",
+        "configPC": "<:syntax:775055818068197386> ▫️ Here are all the events that are configured or not.\n\n`Green color` = Enabled\n`Red Color` = Disabled\n```diff\n{{e}}\n{{d}}```",
+        "resetConfirm": " **▫️** Are you sure you want to reset the logs? \n\n All events will be disabled and logs will be disabled!",
+        "reseted": "<:Check:802521209899319296> **▫️** The logs have been successfully disabled!",
+        "noTypeV": "<:Incorrect:802521817108971540> **▫️** `{{type}}`not a valid type of logs!\nTypes available: `{{types}}`",
+        "noType": "<:Incorrect:802521817108971540> **▫️** You did not tell a type!",
+        "newType": "<:Check:802521209899319296> **▫️** Now I will send as logs in the type `{{type}}`!",
+        "iArg": "<:Incorrect:802521817108971540> **▫️** `{{arg}}` it is not a valid argument !\nArgument list: `{{args}}`\n\nExample: ```{{prefix}}logs {{randomArg}}```"
+    },
+    "lb": {
+        "pos": "Your position: {{pos}}°"
+    },
+    "userinfo": {
+        "noFlags": "No flags.",
+        "noPr": "Nothing.",
+        "includes": "<:warning:799748359257849876> I found {{length}} results that includes **{{arg}}** in name\n\n{{map}}\n{{str}}",
+        "noServ": "No one.",
+        "fields": {
+            "createdAccount": "▫️ Account created:",
+            "joined": "▫️ Joined here:",
+            "joinOrder": "▫️ Position Order:",
+            "sharedServ": "<:pesquisando:758426376578531358> Shared Guilds:"
+        }
+    },
+    "clear": {
+        "number": "<:Incorrect:802521817108971540> **▫️** You need to choose a number from **1** to **1000**",
+        "sucessFailGlobal": "<:Check:802521209899319296> **▫️**Success {{member}}! However, `{{fail}}` messages could not be deleted because they were sent more than 2 weeks ago.",
+        "sucessGlobal": "<:Check:802521209899319296> **▫️** Success {{member}}!",
+        "sucessUsers": "<:Check:802521209899319296> **▫️** Success {{member}}! Clean messages from users  {{users}}!",
+        "sucessFailUser": "<:Check:802521209899319296> **▫️** Success {{member}}! Clean messages from users {{users}}! However, `{{fail}}` messages could not be deleted because they were sent more than 2 weeks ago."
+    },
+    "ban": {
+        "noUser": "<:Incorrect:802521817108971540> **▫️** You need to mention valid users!",
+        "confirm": "❓ **▫️** Do you really want to ban users {{users}}? \n This may take {{time}}.",
+        "userPosition": "<:warning:799748359257849876> Hey! You cannot ban the user ** {{user}} **, if the user's highest role is equal to or greater than yours.",
+        "cantBan": "<:Incorrect:802521817108971540> **▫️**I don't have enough restrictions to ban user {{user}}.",
+        "usersBanned": "<:Check:802521209899319296> **▫️** User (s) {{users}} have been successfully banned!",
+        "cancel": "<:Check:802521209899319296> **▫️** Ban Canceled."
+    },
+    "kick": {
+        "noUser": "<:Incorrect:802521817108971540> **▫️** You need to mention valid users!",
+        "confirm": "❓ **▫️**Do you really want to kick users {{users}}? \n This may take {{time}}.",
+        "userPosition": "<:warning:799748359257849876> Hey! You cannot kick the user ** {{user}} **, if the user's highest role is equal to or greater than yours.",
+        "cantKick": "<:Incorrect:802521817108971540> **▫️** I don't have enough restrictions to kick user {{user}}.",
+        "usersKicked": "<:Check:802521209899319296> **▫️** User (s) {{users}} have been successfully kicked!",
+        "cancel": "<:Check:802521209899319296> **▫️** Kick Canceled."
+    },
+    "loop": {
+        "invalidArg": "<:Incorrect:802521817108971540> ** ▫️ ** The argument`{{arg}}`is invalid. \nValid arguments: {{args}}",
+        "noPlayer": "<:Incorrect:802521817108971540> **▫️** I am not playing anything for the server.",
+        "noMemberVC": "<:Incorrect:802521817108971540> **▫️** You are not on a voice channel.",
+        "voiceDif": "<:Incorrect:802521817108971540> **▫️** You need to be on the same channel I'm playing on ... I'm playing on `{{channel}}`"
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "user": {
+        "MANAGE_GUILD": "Gerenciar servidor",
+        "KICK_MEMBERS": "Kickar membros",
+        "BAN_MEMBERS": "Banir membros",
+        "ATTACH_FILES": "Anexar arquivos",
+        "MANAGE_ROLE": "Gerenciar cargos",
+        "MANAGE_EMOJIS": "Gerenciar emojis",
+        "ADMINISTRATOR": "ADMINISTRADOR",
+        "MANAGE_MESSAGES": "Gerenciar mensagens"
+    },
+    "bot": {
+        "MANAGE_GUILD": "Gerenciar servidor",
+        "KICK_MEMBERS": "Kickar membros",
+        "BAN_MEMBERS": "Banir membros",
+        "ATTACH_FILES": "Anexar arquivos",
+        "MANAGE_ROLE": "Gerenciar cargos",
+        "MANAGE_EMOJIS": "Gerenciar emojis",
+        "ADMINISTRATOR": "ADMINISTRADOR",
+        "MANAGE_MESSAGES": "Gerenciar mensagens"
+    }
+}

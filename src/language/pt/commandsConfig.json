@@ -1,0 +1,201 @@
+{
+    "ping": {
+        "description": "Deixe que o Axel mostre a situação dos clusters",
+        "syntax": "<prefix>ping",
+        "usage": "{{<prefix>}}ping",
+        "category": "Informação"
+    },
+    "botinfo": {
+       "syntax": "<prefix>botinfo",
+       "description": "Veja algumas informações sobre o Axel",
+        "usage": "{{<prefix>}}botinfo",
+        "category": "Informação"
+    },
+    "uptime": {
+    "syntax": "<prefix>uptime",
+      "description": "Veja a quanto tempo o Axel está online!",
+      "usage": "{{<prefix>}}uptime",
+      "category": "Informação"
+    },
+    "lang": {
+        "description": "Mude o idioma padrão do Axel em seu servidor",
+        "syntax": "<prefix>lang <idioma>",
+        "usage": "{{<prefix>}}lang pt\n{{<prefix>}}lang en",
+        "category": "Configuração"
+    },
+    "eval": {
+        "syntax": "<prefix>eval <code>",
+        "description": "Faça o Axel faça qualquer coisa para você via uma linha de código - Apenas para desenvolvedores",
+        "usage": "{{<prefix>}}eval console.log(\"oi\")\nmsg.channel.send(\"Oi\")",
+        "category": "DevOnly"
+    },
+    "store": {
+        "syntax": "<prefix>store",
+        "description": "Gaste suas moedas na loja!",
+        "usage": "{{<prefix>}}store",
+        "category": "Economia"
+    },
+    "ban-list": {
+        "syntax": "<prefix>ban-list",
+        "description": "Veja todos os membros banidos do servidor",
+        "usage": "{{<prefix>}}ban-list",
+        "category": "Moderação"
+    },
+    "setprefix": {
+        "syntax": "<prefix>setprefix <novoPrefixo>",
+        "description": "Altere o prefixo padrão do Axel no servidor",
+        "usage": "{{<prefix>}}setprefix a.",
+        "category": "Configuração"
+    },
+    "saldo": {
+        "syntax": "<prefix>saldo",
+        "description": "Veja quantas moedas você possuí",
+        "usage": "{{<prefix>}}saldo",
+        "category": "Economia"
+    },
+    "serverinfo": {
+        "syntax": "<prefix>serverinfo",
+        "description": "Veja algumas informações sobre o servidor",
+        "usage": "{{<prefix>}}serverinfo",
+        "category": "Utilidades"
+    },
+    "account": {
+        "syntax": "<prefix>account [membro]",
+        "description": "Veja a conta de algum usuário",
+        "usage": "{{<prefix>}}account {{membro}}",
+        "category": "Social"
+    },
+    "ship": {
+        "syntax": "<prefix>ship <user1> <user2>",
+        "description": "Forme um casal",
+        "usage": "{{<prefix>}}ship {{<user1>}} {{<user2>}}",
+        "category": "Entretenimento"
+    },
+    "bio": {
+        "syntax": "<prefix>bio <Biografia>",
+        "description": "Coloque uma biografia para seu perfil",
+        "usage": "{{<prefix>}}bio Olá Mundo !",
+        "category": "Social"
+    },
+    "laranjo": {
+        "syntax": "<prefix>laranjo <texto>",
+        "description": "Diga algo para o laranjo falar",
+        "usage": "<prefix>laranjo Hello World",
+        "category": "Entretenimento"
+    },
+    "afk": {
+        "syntax": "<prefix>afk [Motivo]",
+        "description": "Habilite o seu modo AFK",
+        "usage": "{{<prefix>}}afk\n<prefix>afk Estou almoçando",
+        "category": "Utilidades"
+    },
+    "invert": {
+        "syntax": "<prefix>invert [Usuário : Nome do usuário : Apelido : Imagem em anexo : ID de um usuário : Link de imagem]",
+        "description": "Inverte as cores de uma imagem",
+        "usage": "{{<prefix>}}invert {{membro}}\n{{<prefix>}}invert\n{{<prefix>}}invert {{randomUserID}}",
+        "category": "Manipulação de imagem"
+
+    },
+    "covid19": {
+        "syntax": "<prefix>covid19 [País]",
+        "description": "Veja os status do vírus COVID-19",
+        "usage": "{{<prefix>}}covid19 brasil\n{{<prefix>}}covid19",
+        "category": "Utilidades"
+    }, 
+    "cep": {
+        "syntax": "<prefix>cep [Cep]",
+        "description": "Consulte um cep do Brasil !",
+        "usage": "{{<prefix>}}cep 87323-971",
+        "category": "Utilidades"
+    },
+    "create": {
+        "syntax": "<prefix>create <Tipo> <Nome> : <prefix>create <Tipo> <Nome> <Cor>",
+        "description": "Crie um canal de texto, canal de voz, categoria ou um cargo no servidor!",
+        "usage": "{{<prefix>}}create voz oi\n{{<prefix>}}create texto oi\n{{<prefix>}}create categoria aaa\n{{<prefix>}}create cargo TantoFaz #20F052\n{{<prefix>}}create cargo Tanto+Faz #20F052",
+        "category": "Utilidades"
+    },
+    "docs": {
+        "syntax": "<prefix>docs [Conteúdo]",
+        "description": "Procure algo na documentação do Discord.js - Util para dos desenvolvedores do discord que usam o Discord.js",
+        "usage": "{{<prefix>}}docs TextChannel#send",
+        "category": "Utilidades"
+    },
+    "github": {
+        "syntax": "<prefix>github <Nome de perfil do github>",
+        "description": "Veja informações de um perfil do github",
+        "usage": "{{<prefix>}}github gbrasil3g",
+        "category": "Utilidades"
+    },
+    "npm": {
+        "syntax": "<prefix>npm [Nome da dependência]",
+        "description": "Veja algumas informações de uma dependência do npm - Util para desenvolvedores de Node.js",
+        "usage": "{{<prefix>}}npm discord.js\n{{<prefix>}}npm eris",
+        "category": "Utilidades"
+    },
+    "weather": {
+        "syntax": "<prefix>weather <Cidade>",
+        "description": "Veja o clima de uma cidade",
+        "usage": "{{<prefix>}}wheater São Paulo",
+        "category": "Utilidades"
+    },
+     "empresa": {
+         "syntax": "<prefix>empresa <Tipo> <Nome>",
+         "description": "Saia, entre, crie ou veja informações de uma empresa! - BETA",
+         "usage": "{{<prefix>}}empresa criar A\n{{<prefix>}}empresa info A\n{{<prefix>}}empresa sair A\n{{<prefix>}}empresa entrar A",
+         "category": "Social"
+     },
+     "play": {
+         "syntax": "<prefix>play <Música : Playlist>",
+         "description": "Deixe que o Axel toque uma música para você !",
+         "usage": "{{<prefix>}}play Arc North",
+         "category": "Música"
+     },
+     "queue": {
+         "syntax": "<prefix>queue",
+         "description": "Veja a lista de reprodução de músicas.",
+         "usage": "{{<prefix>}}queue",
+         "category": "Música"
+     },
+     "logs": {
+         "syntax": "<prefix>logs <Função> [Argumento]",
+         "description": "Habilite as logs no servidor.",
+         "usage": "{{<prefix>}}logs set #{{channel}}\n{{<prefix>}}logs events\n{{<prefix>}}logs enable events.MessageDelete\n{{<prefix>}}logs disable events.MessageDelete\n{{<prefix>}}logs events config",
+         "category": "Configuração"
+     },
+     "clear": {
+         "syntax": "<prefix>clear <Quantidade> [Usuários]",
+         "description": "Escolha um número de 1 a 1000 mensagens para serem limpas de algumas pessoas ou global.",
+         "usage": "{{<prefix>}}clear 23\n{{<prefix>}}clear 23 {{<user2>}}",
+         "category": "Moderação"
+     },
+     "ban": {
+         "syntax": "<prefix>ban <Usuários> [Motivo]",
+         "description": "Aplique um banimento para um ou mais usuários.",
+         "usage": "{{<prefix>}}ban {{<user1>}}\n{{<prefix>}}ban {{<user2>}} Quebrou as regras\n{{<prefix>}}ban {{<user1>}} {{<user2>}} Quebraram as regras",
+         "category": "Moderação"
+     },
+     "kick": {
+         "syntax": "<prefix>kick <Usuários> [Motivo]",
+         "description": "Expulse um ou mais usuários do servidor.",
+         "usage": "{{<prefix>}}kick {{<user1>}}\n{{<prefix>}}kick {{<user2>}} Quebrou as regras\n{{<prefix>}}kick {{<user1>}} {{<user2>}} Quebraram as regras",
+         "category": "Moderação"
+     },
+     "loop": {
+         "syntax": "<prefix>loop <Método>",
+         "description": "Habilite o modo **loop** da música, queue ou desativar o modo **loop**.",
+         "usage": "{{<prefix>}}loop desativar\n{{<prefix>}}loop música\n{{<prefix>}}loop queue",
+         "category": "Música"
+     },
+     "blockbots": {
+         "syntax": "<prefix>loop <Método>",
+         "description": "Bloqueie ou desbloqueie os bots a entrar no servidor.",
+         "usage": "{{<prefix>}}blockbots ligar\n{{<prefix>}}blockbots desligar",
+         "category": "Configuração"
+     },
+     "userinfo": {
+         "syntax": "<prefix>userinfo [Usuário]",
+         "description": "Veja informações de um usuário.",
+         "usage": "{{<prefix>}}userinfo\n{{<prefix>}}userinfo {{<user2>}}",
+         "category": "Informação"
+     }
+}

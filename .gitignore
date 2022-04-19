@@ -1,0 +1,11 @@
+node_modules/
+yarn.lock
+yarn-error.log
+
+# Dir's
+
+global/onTest.txt
+global/onOriginal.txt
+.env
+config/
+server/

@@ -1,0 +1,32 @@
+{
+    "message": {
+        "mention": "Hello {{author}}, I'm Axel, if you need help, follow the instructions below: \n\n Help command: {{prefix}}help \n\n Support Server: [Click here](https://discord.gg/GqVPyUy)",
+        "blacklisted": "{{author}}, you're on my blacklist and can't use any commands! Please contact the developers if you would like access again!",
+        "secondsCooldown": " **▫️** For you to run the command `{{command}}`, you need wait {{seconds}} seconds !",
+        "secondsMs": " **▫️** For you to run the command `{{command}}`, you need to wait a few milliseconds !",
+        "error": "There was an unexpected error on my system\n\n```\/[NodeERR*_ Axel[i*+]_{{error}}+Author[{{authorID}}]-]```",
+        "noUserPermSingular": "**▫️** For you to run this command, you the permission: `{{perm}}`",
+        "noUserPermPlural": "**<:brilho:792489372355133450**>** For you to run this command, you need the permissions: `{{perm}}`",
+        "noBotPermSingular": "**▫️** For you to run this command, i need the permission: `{{perm}}`",
+        "noBotPermPlural": "**▫️** For you to run this command, i need the permissions: `{{perm}}`"
+    },
+    "messageDelete": {
+        "author": "Message deleted!",
+        "description": "{{member}} deleted a message!",
+        "channelField": "<:channel:743904354465087539> Channel that the message was deleted:",
+        "contentField": "<:syntax:775055818068197386> Message content:",
+        "dateField": "<:cooldown:775054742401319003> Date the message was deleted:",
+        "date": "{{DATE}}",
+        "noContent": "No one."
+    },
+    "services": {
+        "afk": {
+            "heAfk": "<:aviso:734427202191491154> **▫️** This user is in AFK mode - {{reason}}",
+            "back": "<a:waveanimado:788854018611871785> **▫️** Welcome back, your AFK mode has been disabled!"
+        }
+    },
+    "Lavalink": {
+        "start": "📀 **▫️** Playing: [{{title}}]({{url}}) - <@{{requester}}>",
+        "end": "📀 **▫️** End of song **{{title}}**!"
+    }
+}

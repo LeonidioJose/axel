@@ -1,0 +1,20 @@
+{
+    "user": {
+        "MANAGE_GUILD": "Manage guild",
+        "KICK_MEMBERS": "Kick members",
+        "BAN_MEMBERS": "Ban members",
+        "ATTACH_FILES": "Attach files",
+        "MANAGE_ROLE": "Manage roles",
+        "MANAGE_EMOJIS": "Manage emojis",
+        "ADMINISTRATOR": "ADMINISTRATOR"
+    },
+    "bot": {
+        "MANAGE_GUILD": "Manage guild",
+        "KICK_MEMBERS": "Kick members",
+        "BAN_MEMBERS": "Ban members",
+        "ATTACH_FILES": "Attach files",
+        "MANAGE_ROLE": "Manage roles",
+        "MANAGE_EMOJIS": "Manage emojis",
+        "ADMINISTRATOR": "ADMINISTRATOR"
+    }
+}

@@ -1,0 +1,207 @@
+{
+    "ping": {
+        "description": "Let Axel show the situation of the clusters",
+        "syntax": "<prefix>ping",
+        "usage": "{{<prefix>}}ping",
+        "category": "Information"
+    },
+    "botinfo": {
+       "syntax": "<prefix>botinfo",
+       "description": "See some information about Axel",
+        "usage": "{{<prefix>}}botinfo",
+        "category": "Information"
+    },
+    "uptime": {
+    "syntax": "<prefix>uptime",
+      "description": "See how long Axel has been online!",
+      "usage": "{{<prefix>}}uptime",
+      "category": "Information"
+    },
+    "lang": {
+        "description": "Change the default language of Axel on your server",
+        "syntax": "<prefix>lang <language>",
+        "usage": "{{<prefix>}}lang pt\n<prefix>lang en",
+        "category": "Configuration"
+    },
+    "eval": {
+        "syntax": "<prefix>eval <code>",
+        "description": "Make Axel do anything for you via a line of code - Developers only",
+        "usage": "{{<prefix>}}eval console.log(\"Hi\")\nmsg.channel.send(\"Hi\")",
+        "category": "DevOnly"
+    },
+    "store": {
+        "syntax": "<prefix>store",
+        "description": "Spend your coins in the store!",
+        "usage": "{{<prefix>}}store",
+        "category": "Economy"
+    },
+    "ban-list": {
+        "syntax": "<prefix>ban-list",
+        "description": "See all banned members from the server",
+        "usage": "{{<prefix>}}ban-list",
+        "category": "Moderation"
+    },
+    "setprefix": {
+        "syntax": "<prefix>setprefix <newPrefix>",
+        "description": "Change the Axel default prefix on the server",
+        "usage": "{{<prefix>}}setprefix a.",
+        "category": "Configuration"
+    },
+    "saldo": {
+        "syntax": "<prefix>bank",
+        "description": "See how much coins you own",
+        "usage": "{{<prefix>}}bank",
+        "category": "Economy"
+    },
+    "serverinfo": {
+        "syntax": "<prefix>serverinfo",
+        "description": "See some information about the guild",
+        "usage": "{{<prefix>}}serverinfo",
+        "category": "Utility"
+    },
+    "account": {
+        "syntax": "<prefix>account [member]",
+        "description": "View a user's account",
+        "usage": "{{<prefix>}}account {{[member]}}",
+        "category": "Social"
+    },
+    "ship": {
+        "syntax": "<prefix>ship <user1> <user2>",
+        "description": "Form a couple",
+        "usage": "{{<prefix>}}ship {{<user1>}} {{<user2>}}",
+        "category": "Entertainment"
+    },
+    
+    "bio": {
+        "syntax": "<prefix>bio <Biography>",
+        "description": "Put a biography for your profile",
+        "usage": "{{<prefix>}}bio Hello World!",
+        "category": "Social"
+    },
+    "laranjo": {
+        "syntax": "<prefix>laranjo <text>",
+        "description": "Say something for the orange to speak",
+        "usage": "<prefix>laranjo Hello World",
+        "category": "Entertainment"
+    },
+    "afk": {
+        "syntax": "<prefix>afk [Reason]",
+        "description": "Enable your AFK mode",
+        "usage": "{{<prefix>}}afk\n<prefix>afk I'm having lunch",
+        "category": "Social"
+    },
+    "invert": {
+        "syntax": "<prefix>invert [User : Username of user : Nickname : Attached File : ID of User : Image URL]",
+        "description": "Invert the colors of an image ",
+        "usage": "{{<prefix>}}invert {{[member]}}\n{{<prefix>}}invert\n{{<prefix>}}invert {{randomUserID}}",
+        "category": "Image manipulation"
+    },
+    "help": {
+        "syntax": "<prefix>help",
+        "description": "Help command",
+        "usage": "{{prefix}}help",
+        "category": "Utility"
+    }, 
+    "cep": {
+        "syntax": "<prefix>cep [Cep]",
+        "description": "Consult a zip code of Brazil!",
+        "usage": "{{<prefix>}}cep 87323-971",
+        "category": "Utility"
+    },
+    "create": {
+        "syntax": "<prefix>create <Type> <Name> : <prefix>create <Type> <Role> <Color>",
+        "description": "Create a text channel, voice channel, category or role on the server!",
+        "usage": "{{<prefix>}}create voice hi\n{{<prefix>}}create text hi\n{{<prefix>}}create category hi\n{{<prefix>}}create role idk #20F052\n{{<prefix>}}create role bababoey+role #20F052",
+        "category": "Utility"
+    },
+    "docs": {
+        "syntax": "<prefix>docs [Content]",
+        "description": "Look for something in the Discord.js documentation - Useful for discord developers using Discord.js",
+        "usage": "{{<prefix>}}docs TextChannel#send",
+        "category": "Utility"
+    },
+    "github": {
+        "syntax": "<prefix>github <Github profile name>",
+        "description": "View information from a github profile",
+        "usage": "{{<prefix>}}github gbrasil3g",
+        "category": "Utility"
+    },
+    "npm": {
+        "syntax": "<prefix>npm <Depedency Name>",
+        "description": "See some information about an npm dependency - Useful for Node.js developers",
+        "usage": "{{<prefix>}}npm discord.js\n{{<prefix>}}npm eris",
+        "category": "Utility"
+    },
+    "weather": {
+        "syntax": "<prefix>weather <City>",
+        "description": "See the climate of a city",
+        "usage": "{{<prefix>}}wheater São Paulo",
+        "category": "Utility"
+    },
+     "empresa": {
+         "syntax": "<prefix>company <Type> <Name>",
+         "description": "Log out, log in, create or view company information! - BETA",
+         "usage": "{{<prefix>}}company create A\n{{<prefix>}}company info A\n{{<prefix>}}company leave A\n{{<prefix>}}company join A",
+         "category": "Social"
+     },
+     "covid19": {
+        "syntax": "<prefix>covid19 [Country]",
+        "description": "View the status of the COVID-19 virus",
+        "usage": "{{<prefix>}}covid19 brazil\n{{<prefix>}}covid19",
+        "category": "Utility"
+    },
+    "play": {
+        "syntax": "<prefix>play <Music : Playlist>",
+        "description": "Let Axel play a song for you!",
+        "usage": "{{<prefix>}}play Arc North",
+        "category": "Music"
+    },
+    "queue": {
+        "syntax": "<prefix>queue",
+        "description": "See the playlist of songs.",
+        "usage": "{{<prefix>}}queue",
+        "category": "Music"
+    },
+    "logs": {
+        "syntax": "<prefix>logs <Function> [Argument]",
+        "description": "Enable logs on the guild.",
+        "usage": "{{<prefix>}}logs set #{{channel}}\n{{<prefix>}}logs events\n{{<prefix>}}logs enable events.MessageDelete\n{{<prefix>}}logs disable events.MessageDelete\n{{<prefix>}}logs events config",
+        "category": "Configuration"
+    },
+    "clear": {
+        "syntax": "<prefix>clear <Quantity> [Users]",
+        "description": "Choose a number of 1 to 1000 messages to be deleted from some people or everyone.",
+        "usage": "{{<prefix>}}clear 23\n{{<prefix>}}clear 23 {{<user2>}}",
+        "category": "Moderation"
+    },
+    "ban": {
+        "syntax": "<prefix>ban <Users> [Reason]",
+        "description": "Apply a ban to one or more users.",
+        "usage": "{{<prefix>}}ban {{<user1>}}\n{{<prefix>}}ban {{<user2>}} Broke the rules\n{{<prefix>}}ban {{<user1>}} {{<user2>}} Meme in general",
+        "category": "Moderation"
+    },
+    "kick": {
+        "syntax": "<prefix>kick <Users> [Reason]",
+        "description": "Apply a kick to one or more users.",
+        "usage": "{{<prefix>}}kick {{<user1>}}\n{{<prefix>}}kick {{<user2>}} Broke the rules\n{{<prefix>}}kick {{<user1>}} {{<user2>}} Meme in general",
+        "category": "Moderation"
+    },
+    "loop": {
+        "syntax": "<prefix>loop <Method>",
+        "description": "Enable the **loop** mode of the song, queue or disable the **loop** mode.",
+        "usage": "{{<prefix>}}loop off\n{{<prefix>}}loop music\n{{<prefix>}}loop queue",
+        "category": "Music"
+    },
+    "blockbots": {
+        "syntax": "<prefix>loop <Method>",
+        "description": "Block or unblock bots to enter the server.",
+        "usage": "{{<prefix>}}blockbots on\n{{<prefix>}}blockbots off",
+        "category": "Configuration"
+    },
+    "userinfo": {
+        "syntax": "<prefix>userinfo [User]",
+        "description": "View user information.",
+        "usage": "{{<prefix>}}userinfo\n{{<prefix>}}userinfo {{<user2>}}",
+        "category": "Information"
+    }
+}
